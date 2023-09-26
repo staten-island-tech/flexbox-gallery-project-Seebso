@@ -10,13 +10,22 @@ html,
   display: flex;
   flex-wrap: wrap;
   height: 50vh;
-  width: 27vw;
+  width: 22vw;
   margin: 2.5rem 0;
-  background-color: #ff0000;
+  background-color: #cb8edd;
   align-items: center;
   display: flex;
   flex-direction:column;
   justify-content: space-between;
+  transition: all 0.5s;
+  box-shadow: 10px 10px #845c8f;
+}
+.card:hover{
+  transform: scale(1.08);
+  background-color: #b883ca;
+  box-shadow: 10px 10px #ee34bf;
+  transition-delay: 2s;
+  box-shadow: 10px 10px #ee3434;
 }
 .card-img {
     width: 100%;
@@ -29,7 +38,7 @@ html,
     display: flex;
     flex-wrap: wrap;
     width: 100vw;
-    background-color: #a17026;
+    background-color: #92e28f;
     align-items: center;
     justify-content: space-around;
 }
