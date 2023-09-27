@@ -20,12 +20,16 @@ html,
   transition: all 0.5s;
   box-shadow: 10px 10px #845c8f;
 }
+@keyframes e {
+  from {background-color: #cb8edd;}
+   to {background-color: #f8a7f8;}
+}
 .card:hover{
   transform: scale(1.08);
-  background-color: #b883ca;
-  box-shadow: 10px 10px #ee34bf;
-  transition-delay: 2s;
-  box-shadow: 10px 10px #ee3434;
+  background-color: #f8a7f8;
+  animation-name: e;
+  animation-duration: 1s;
+  box-shadow: 10px 10px #c92ca1, inset 10px 10px #b93281, 15px 15px #ff1b1b, inset 15px 15px #ce68a4, 20px 20px #ff951b, 25px 25px #fffb1b;
 }
 .card-img {
     width: 100%;
