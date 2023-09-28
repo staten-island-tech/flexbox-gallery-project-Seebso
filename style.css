@@ -19,17 +19,19 @@ html,
   justify-content: space-between;
   transition: all 0.5s;
   box-shadow: 10px 10px #845c8f;
+  font-family: 'Comfortaa', cursive;
 }
 @keyframes e {
   from {background-color: #cb8edd;}
    to {background-color: #f8a7f8;}
 }
 .card:hover{
-  transform: scale(1.08);
+  transform: scale(1.08) skew(1deg, 1deg) rotate(0.01turn);
   background-color: #f8a7f8;
   animation-name: e;
   animation-duration: 1s;
   box-shadow: 10px 10px #c92ca1, inset 10px 10px #b93281, 15px 15px #ff1b1b, inset 15px 15px #ce68a4, 20px 20px #ff951b, 25px 25px #fffb1b;
+  transition: margin-right 2s;
 }
 .card-img {
     width: 100%;
@@ -52,4 +54,14 @@ html,
 .difcard {
   width: 100%;
   height: 70%;
+}
+@media screen and (max-width: 900px) {
+  .menu-item {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 60px) {
+  .menu-item {
+    width: 100%;
+  }
 }
