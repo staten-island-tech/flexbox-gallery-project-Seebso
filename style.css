@@ -10,7 +10,7 @@ html,
   display: flex;
   flex-wrap: wrap;
   height: 50vh;
-  width: 22vw;
+  width: 22vh;
   margin: 2.5rem 0;
   background-color: #cb8edd;
   align-items: center;
@@ -42,7 +42,7 @@ html,
     margin: 1rem auto;
     display: flex;
     flex-wrap: wrap;
-    width: 100vw;
+    width: 22vh;
     background-color: #92e28f;
     align-items: center;
     justify-content: space-around;
